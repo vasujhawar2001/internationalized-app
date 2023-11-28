@@ -5,8 +5,6 @@ import { useEffect } from 'react';
 import cookies from 'js-cookie';
 
 
-const isActive = ({ isActive }) => `link ${isActive ? "active" : ""}`;
-
 const Navbar = () => {
 
   const currentLanguageCode = cookies.get('i18next') || 'en';
@@ -29,10 +27,10 @@ const Navbar = () => {
       <nav className='flex justify-between gap-x-16'>
       <h1 className='text-2xl'>Stratup.ai</h1> 
       <div className='flex space-x-10 text-xl gap-x-8'>
-        <NavLink className={isActive} to="/">
+        <NavLink to="/">
           <p>{t("home")}</p>
         </NavLink>
-        <NavLink className={isActive} to="/about">
+        <NavLink to="/about">
           <p>{t("about")}</p>
         </NavLink>
       </div>
