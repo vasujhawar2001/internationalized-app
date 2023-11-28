@@ -1,0 +1,8 @@
+{
+    "home": "بيت",
+    "about": "عن",
+    "welcome": "Stratup.ai مرحبًا بك في",
+    "message": "Stratup.ai أطلق العنان لقوى شركتك الناشئة مع ",
+    "days_working": " لقد مر {{number_of_days}} يوم منذ إطلاقنا!",
+    "dynamic": "الترجمة الديناميكية مع Google Translate API"
+}

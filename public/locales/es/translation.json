@@ -1,0 +1,8 @@
+{
+    "about": "Acerca de",
+    "home": "Hogar",
+    "welcome": "Bienvenido a Stratup.ai",
+    "message": "Libera tus superpoderes de inicio con Stratup.ai",
+    "days_working": "¡Han pasado {{number_of_days}} días desde que lanzamos!",
+    "dynamic": "Traducción dinámica con la API del Traductor de Google"
+}
