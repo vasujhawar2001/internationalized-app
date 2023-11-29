@@ -1,8 +1,8 @@
 import i18n from 'i18next';
 import Backend from 'i18next-http-backend';
-
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
+import middleware from 'i18next-express-middleware';
 // import LocalStorageBackend from "i18next-localstorage-backend";
 
 const getCurrentHost =
@@ -17,9 +17,9 @@ i18n
   .init({
     fallbackLng: 'en',
     detection: {
-        order: ['querystring', 'path', 'cookie', 'header', 'localStorage', 'sessionStorage', 'htmlTag'],
+        order: ['querystring', 'path', 'cookie', 'navigator', 'localStorage', 'sessionStorage', 'htmlTag'],
         caches: ['cookie', 'localStorage'],
-        lookupQuerystring: 'lang', 
+        lookupQuerystring: 'lang',
     },
     preload: ['en'],
     debug: 'true',
