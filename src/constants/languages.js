@@ -17,4 +17,12 @@ export const languages = [
       code: 'es',
       name: 'Español',
     },
+    {
+      code: 'de',
+      name: 'Deutsch',
+    },
+    {
+      code: 'zh',
+      name: '中国人',
+    },
   ]
